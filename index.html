@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+    <h2>Student Admission Form</h2>
+    
+    <form action="#" method="post">
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="fullname" required minlength="3" maxlength="30">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" maxlength="10">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required checked>
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Course Selection -->
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="digital_marketing">Digital Marketing</option>
+            <option value="graphic_designing">Graphic Designing</option>
+            <option value="tally" selected>Tally Course</option>
+            <option value="web_development">Web Development</option>
+        </select>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="6">
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+    </form>
+
+<table border="1">
+    <caption>balaji computer</caption>
+    <tr>
+        
+        <th>NAME</th>
+        <th>FATHER NAME</th>
+        <th>AGE</th>
+    </tr>
+    <TR>
+        <TD>AMIT</TD>
+        <TD>RAJESH</TD><TD>54</TD>
+    </TR>
+    <tr>
+        <td rowspan="2">aman</td>
+        <td colspan="2">abc</td>
+    </tr>
+    <tr>
+        <td>xyz</td>
+        <td>dfdf</td>
+    </tr>
+</table>
+
+<form>
+    <label for="empid">Employee Id :</label>
+    <input type="text" id="empid" name="empid" placeholder="enter your emp id" required><br/>
+    <label for="empname">Employee Name</label>
+    <input type="text" id="empname" name="empname" placeholder="enter your name" required><br>
+    <label for="empmail">Email Address :</label>
+    <input type="email" id="empmail" name="empmail" placeholder="enter your Email" required><br>
+
+    <label for="mob">Mobile No :</label>
+    <input type="tel" id="mob" name="mob" placeholder="enter your Mob" required><br>
+
+    <label for="dob">Date of Joining :</label>
+    <input type="date" id="dob" name="dob" placeholder="enter your Email" required><br>
+
+     <!-- Gender -->
+     <label>Gender:</label>
+     <input type="radio" id="male" name="gender" value="male" required>
+     <label for="male">Male</label>
+     <input type="radio" id="female" name="gender" value="female" required checked>
+     <label for="female">Female</label>
+     <br><br>
+
+     <label for="status">Marital Status</label>
+     <input type="radio" id="married" name="status" value="married">
+     <label for="married">Married</label>
+
+     <input type="radio" id="single" name="status" value="single">
+     <label for="single">Single</label>
+
+ <!-- Course Selection -->
+ <label for="course">Select Course:</label>
+ <select id="course" name="course" required>
+     <option value="digital_marketing">Digital Marketing</option>
+     <option value="graphic_designing">Graphic Designing</option>
+     <option value="tally" selected>Tally Course</option>
+     <option value="web_development">Web Development</option>
+ </select>
+ <br><br>
+
+<label for="course1">Select Course:</label>
+<select id="course1" name="course1" required>
+    <option value="digital_marketing">Digital Marketing 12</option>
+    <option value="graphic_designing">Graphic Desinging</option>
+    <option value="web_development" selected>web dv</option>
+</select>
+
+     <br>
+
+
+         
+        <button type="submit">Submit</button>
+        <button type="reset">reset me</button>
+      </form>
+      
+
+
+</form>
+</body>
+</html>
